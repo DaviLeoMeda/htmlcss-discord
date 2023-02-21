@@ -46,6 +46,14 @@ nav{
     color: black;
 }
 
+.B{
+    background-color: #332d2d;
+    color: #fff;
+    margin-left: 10px;
+}
+}
+
+
 nav ul, nav div{
     padding: 10px 0;
 }
@@ -56,76 +64,120 @@ nav ul, nav div{
     background-repeat: no-repeat;
 }
 
-
-
-.linktesta{
-    border: 2px dashed grey;
-}
-
-.uno, .tre{
-    width: 25%;
-}
-
-.due{
-    width: 50%; 
+.testohead{
+    width: 50%;
+    padding-top: 100px;
     text-align: center;
+    color: #fff;
+}
+
+div>h2{
+    margin: 20px 0;
+}
+
+.ButHead{
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 100px;
 }
 
 
-
-#box{
-    min-height: 150px;
-    width: 30%;
-    background-color: pink;
-    border: 2px dashed grey;
-}
 
 /* Elementi main */
 
-
-main>section{
-    justify-content: center;
-    align-items: center;
-    min-height: 250px;
-}
-
-.scatola{
-    min-height: 200px;
-}
-
-.white{
-    background-color: #fff;
-}
-
-.grey{
-    background-color: darkgray;
-}
-
 .first{
-    background-color: blue;
-    width: 30%;
+    width:70%;
 }
 
 .second{
-    background-color: pink;
+    width: 30%;
+    text-align: left;
+}
+
+.waveone{
+    width: 100%;
+    height: 50px;
+    display: block;
+    margin-top: 50px;
+}
+
+.mainHead{
+    align-items: center;
+}
+
+.onda{
+    background-color: aquamarine;
+}
+
+#prefooter>h2{
+    display: inline;
+}
+
+.wavetwo{
+    width: 100%;
+    height: 50px;
+    display: block;
+    transform: rotate(180deg);
+    margin-bottom: 50px;
+}
+
+
+#prefooter{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.conclu{
+    justify-content: center;
+}
+
+.C{
+    background-color: blue;
+    color: #fff;
+    display: inline;
+}
+
+.stelline{
+    justify-content: center;
+    padding: 30px;
+}
+
+.back{
+    background-image: url(../image/stars.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* Elementi Footer */
+
+footer{
+    background-color: rgb(72, 55, 55);
+    color: #fff;
+    padding-top: 50px;
+}
+.lingua{
+    width: 20%;
+}
+
+.contatti{
+    width: 80%;
+}
+
+.bottom{
+    width: calc(100% / 4);
+}
+
+.top>img{
     width: 10%;
+    height: 10%;
 }
 
-.first, .second{
-    border: 2px dashed grey;
+.loghi{
+    color: #fff;
 }
 
-.scatolona{
-    width: 40%;
-    min-height: 300px;
-    background-color: green;
-    margin: 30px 0;
-    border: 2px dashed grey;
-}
-
-
-
-footer>section{
+/* footer>section{
     background-color: rgb(72, 55, 55);
     min-height: 300px;
     align-items: center;
@@ -146,10 +198,6 @@ footer>section{
 .bottom{
     background-color: lightseagreen;
     width: 6%;
-}
+} */
 
 
-#vuoto{
-    height: 100px;
-    background-color: rgb(72, 55, 55);
-}
