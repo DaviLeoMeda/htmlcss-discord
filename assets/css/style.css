@@ -30,10 +30,10 @@ nav>section{
     justify-content: space-between;
 }
 
-ul li{
+nav section ul li{
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 0 20px;
     display: inline-block;
 }
 
@@ -51,7 +51,6 @@ nav{
     color: #fff;
     margin-left: 10px;
 }
-}
 
 
 nav ul, nav div{
@@ -65,7 +64,7 @@ nav ul, nav div{
 }
 
 .testohead{
-    width: 50%;
+    width: 30%;
     padding-top: 100px;
     text-align: center;
     color: #fff;
@@ -153,51 +152,51 @@ div>h2{
 
 footer{
     background-color: rgb(72, 55, 55);
-    color: #fff;
     padding-top: 50px;
 }
+
+
 .lingua{
     width: 20%;
 }
+
 
 .contatti{
     width: 80%;
 }
 
-.bottom{
+.lingua div h2,
+.columns ul:first-child{
+    color: blue
+}
+
+.columns{
     width: calc(100% / 4);
 }
 
-.top>img{
-    width: 10%;
-    height: 10%;
+.columns ul li{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
-.loghi{
+a{
     color: #fff;
 }
 
-/* footer>section{
-    background-color: rgb(72, 55, 55);
-    min-height: 300px;
-    align-items: center;
-    justify-content: center;
-    min-height: 400px;
+br{
+    color: #fff;
+    margin: 100px 0;
+    height: 2px;
+    width: 100%;
 }
 
-.contatti{
-    min-height: 300px;
-    border: 2px dashed grey;
+
+.finaleuno{
+    justify-content: flex-start;
+    padding-top: 50px;
 }
 
-.top{
-    background-color: fuchsia;
-    width: 10%;
+.finaledue{
+    justify-content: flex-end;
 }
-
-.bottom{
-    background-color: lightseagreen;
-    width: 6%;
-} */
-
-
